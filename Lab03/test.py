@@ -6,4 +6,4 @@ data = {'population' : [1.5, 1.7, 3.6, 2.4, 2.9], 'state' : ['Ohio','Ohio','Ohio
 
 df = pd.DataFrame(data,columns=['year','state','population','debt'],index=['one','two','three','four','five'])
 
-print df.iloc[]
+print df.ix[0:,]
